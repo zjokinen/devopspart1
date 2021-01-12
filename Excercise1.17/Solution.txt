@@ -1,0 +1,8 @@
+Created image can be found from 
+
+https://hub.docker.com/repository/docker/zjokinen/nodepostgresdev
+
+This is a development environment for Node.js. Container includes also PostgreSQL database. 
+Furthermore, node Postgres driver libraries have been installed.
+
+

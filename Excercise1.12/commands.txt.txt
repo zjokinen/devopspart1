@@ -1,0 +1,11 @@
+# Building frontend
+$ docker build -t front-test .
+
+# Buildoing backend
+$ docker build -t back-test .
+
+# Running frontend
+$ docker run -d -p 5000:5000 --rm node-test
+
+# Running backend
+$ docker run -d --rm -p 8000:8000 -v "$(pwd)/logs.txt:/logs.txt" back-test
